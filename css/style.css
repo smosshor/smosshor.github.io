@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -982,7 +984,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   border-bottom: none !important;
 }
 .fh5co-nav-toggle i {
-  position: relative;
+  position: fixed;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
