@@ -125,7 +125,7 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .banner {
-	width: 100%;
+	width: 0%;
 	height: 100%;
 	min-height: 100%;
 	position: relative;
@@ -134,7 +134,7 @@ blockquote {
 .banner-image {
 	vertical-align: middle;
 	min-height: 100%;
-	width: 100%;
+	width: 0%;
 }
 .banner:after {
 	position: absolute;
