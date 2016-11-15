@@ -482,10 +482,10 @@ textarea {
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
 	color: #55acee;
 }
-@media (min-width:400px) {
+@media (min-width:0px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
@@ -493,7 +493,7 @@ textarea {
 		transition: all 0.3s ease-in-out;
 	}
 }
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:50px) {
 	.main-navigation .container-fluid {
 		padding-left: 0;
 		padding-right: 0;
