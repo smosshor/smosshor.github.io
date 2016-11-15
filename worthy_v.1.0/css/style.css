@@ -316,8 +316,8 @@ blockquote {
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+	background-color: #96EBDF;
+	border-color: #96EBDF;
 }
 
 /* Collapse
@@ -673,7 +673,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(85, 172, 238, 0.9);
+	background-color: rgb(150, 235, 223);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
