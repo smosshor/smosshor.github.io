@@ -109,7 +109,7 @@ blockquote {
 	padding-right: 0;
 }
 .title {
-	margin-top: 0;
+	margin-top: 30;
 }
 
 /* Layout
@@ -476,7 +476,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #96ebdf;
+	color: #4E97A8;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
