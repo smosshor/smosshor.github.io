@@ -41,6 +41,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Isotope javascript -->
+  <script type="text/javascript" src="js/isotope/isotope.pkgd.min.js"></script>
   <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
 
 	<!-- Modernizr JS -->
@@ -51,8 +52,9 @@
 	<![endif]-->
   	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-
 	</head>
+
+	<!-- end header -->
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -68,37 +70,38 @@
 			<div class="fh5co-footer">
 				<p> &copy; 2016 Sarah Moss-Horwitz</p>
 			</div>
-
 		</aside>
-	<body>
-          <!-- section start -->
+
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="row animate-box" data-animate-effect="fadeInLeft">
           <!-- ================ -->
           <div class="section">
             <div class="container">
               <div class="separator"></div>
-              <h2 class="text-center title" id="portfolio">Portfolio</h2>
+              <h2 class="text-left title" id="portfolio">Portfolio</h2>
               <div class="separator"></div>
               <br>
               <div class="row object-non-visible" data-animation-effect="fadeIn">
-                <div class="col-md-12">
+                <div class="col-md-8">
 
                   <!-- isotope filters start -->
                   <div class="filters text-center">
                     <ul class="nav nav-pills">
                       <li class="active"><a href="#" data-filter="*">All</a></li>
-                      <li><a href="#" data-filter=".UX">User Experience Research</a></li>
-                      <li><a href="#" data-filter=".ID">Instructional Design</a></li>
-                      <li><a href="#" data-filter=".Research">Research</a></li>
+                      <li><a href="#" data-filter=".filter_UX">User Experience Research</a></li>
+                      <li><a href="#" data-filter=".filter_ID">Instructional Design</a></li>
+                      <li><a href="#" data-filter=".filter_Research">Research</a></li>
                     </ul>
                   </div>
                   <!-- isotope filters end -->
 
                   <!-- portfolio items start -->
                   <div class="isotope-container row grid-space-20">
-                    <div class="col-sm-6 col-md-3 isotope-item UX">
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 isotope-item filter_UX">
                       <div class="image-box">
                         <div class="overlay-container">
-                          <img src="images/logo.png" alt="">
+                          <img src="images/work_2.jpg" class="Responsive" alt="">
                           <a class="overlay" data-toggle="modal" data-target="#project-1">
                             <i class="fa fa-search-plus"></i>
                             <span>Web Design</span>
@@ -114,15 +117,8 @@
                               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                               <h4 class="modal-title" id="project-1-label">Project Title</h4>
                             </div>
-                            <div class="modal-body">
-                              <h3>Project Description</h3>
-                              <div class="row">
                                 <div class="col-md-6">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-                                  <p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-                                </div>
-                                <div class="col-md-6">
-                                  <img src="images/logo.png" alt="">
+                                  <img src="images/work_2.jpg" class="Responsive" alt="">
                                 </div>
                               </div>
                             </div>
@@ -135,10 +131,10 @@
                       <!-- Modal end -->
                     </div>
 
-                    <div class="col-sm-6 col-md-3 isotope-item Research">
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 isotope-item Research">
                       <div class="image-box">
                         <div class="overlay-container">
-                          <img src="images/logo.png" alt="">
+                          <img src="images/work_2.jpg" class="Responsive" alt="">
                           <a class="overlay" data-toggle="modal" data-target="#project-2">
                             <i class="fa fa-search-plus"></i>
                             <span>Decision Making Tools</span>
@@ -162,7 +158,7 @@
                                   <p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
                                 </div>
                                 <div class="col-md-6">
-                                  <img src="images/portfolio-2.jpg" alt="">
+                                  <img src="images/portfolio-2.jpg" class="Responsive" alt="">
                                 </div>
                               </div>
                             </div>
@@ -175,10 +171,10 @@
                       <!-- Modal end -->
                     </div>
 
-                    <div class="col-sm-6 col-md-3 isotope-item UX">
+                    <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 isotope-item UX">
                       <div class="image-box">
                         <div class="overlay-container">
-                          <img src="images/logo.png" alt="">
+                          <img src="images/work_2.jpg" class="Responsive" alt="">
                           <a class="overlay" data-toggle="modal" data-target="#project-3">
                             <i class="fa fa-search-plus"></i>
                             <span>Mindful</span>
@@ -202,7 +198,7 @@
                                   <p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
                                 </div>
                                 <div class="col-md-6">
-                                  <img src="images/portfolio-3.jpg" alt="">
+                                  <img src="images/portfolio-3.jpg" class="Responsive" alt="">
                                 </div>
                               </div>
                             </div>
@@ -264,7 +260,7 @@
 	<script src="js/jquery.countTo.js"></script>
 
   <!-- Isotope javascript -->
-  <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/isotope/isotope.pkgd.min.js"></script>
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
